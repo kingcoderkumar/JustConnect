@@ -17,6 +17,8 @@ public class UserController {
 
     @Autowired
     UserRepository userRepository;
+    
+
 
     @RequestMapping(method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     public void create(@RequestBody User user) {
