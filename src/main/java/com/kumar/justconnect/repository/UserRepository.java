@@ -4,10 +4,11 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.kumar.justconnect.model.User;
+import com.kumar.justconnect.entity.User;
 
 public interface UserRepository  extends JpaRepository<User, Long>{
-    List<User> findByName(String lastName);
+    
+	List<User> findByName(String lastName);
 
 	User findOne(long id);
 

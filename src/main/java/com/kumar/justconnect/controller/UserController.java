@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.kumar.justconnect.model.User;
+import com.kumar.justconnect.entity.User;
 import com.kumar.justconnect.repository.UserRepository;
 
 @RestController
